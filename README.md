@@ -4,7 +4,7 @@
 Расчёт интегрального представления
 ------------
 
-######def integral_view(image, x, y, integral_image):
+>def integral_view(image, x, y, integral_image):
 
     Args:
         image: Исходная матрица
@@ -21,7 +21,7 @@
         return image[x][y]
 
 
-######def integral_view_final(image):
+>def integral_view_final(image):
 
     Args:
         image: Исходная матрица
@@ -46,7 +46,8 @@ Cумма пикселей произвольного прямоугольник
 ------------
 #### Пример суммы пикселей в произвольном прямоугольнике
 ![Screenshot](scrn.png)
-######def rect_sum(image, x1: int, y1: int, x2: int, y2: int):
+
+>def rect_sum(image, x1: int, y1: int, x2: int, y2: int):
 
     Args:
         image: Исходная матрица
