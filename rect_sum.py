@@ -17,4 +17,4 @@ def rect_sum(image, x1: int, y1: int, x2: int, y2: int):
     for i in range(int(y1)-1, int(y2)):
         for j in range(int(x1-1), int(x2)):
             summ += image[i][j]
-    return summ
+    return summ  
